@@ -6684,9 +6684,9 @@ textarea.form-control-lg {
   background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-light {
+.text-bg-light { /*e7e2d8  */
   color: #000 !important;
-  background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
+  background-color: rgb(231, 226, 216) !important;
 }
 
 .text-bg-dark {
@@ -10959,7 +10959,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
