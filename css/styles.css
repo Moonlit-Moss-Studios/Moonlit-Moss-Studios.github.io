@@ -10877,7 +10877,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgb(176,120,93);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11039,6 +11039,46 @@ footer.footer .social-link:hover {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+}
+.team-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+.team-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+ /* background-color: rgba(33, 37, 41, 0.2);*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.team-item .caption .caption-content {
+  color: #fff;
+  margin: auto 2rem 2rem;
+}
+
+.team-item .caption {
+  transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+  transition: clip-path 0.25s ease-out, background-color 0.7s;
+  transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+  -webkit-clip-path: inset(0px);
+          clip-path: inset(0px);
+}
+.team-item img {
+  transition: -webkit-clip-path 0.25s ease-out;
+  transition: clip-path 0.25s ease-out;
+  transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+  -webkit-clip-path: inset(-1px);
+          clip-path: inset(-1px);
+}
+.team-item:hover img {
+  -webkit-clip-path: inset(2rem);
+          clip-path: inset(2rem);
 }
 .portfolio-item .caption {
   display: flex;
