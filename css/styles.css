@@ -8126,7 +8126,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(181,195,196, var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11092,7 +11092,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(181, 195, 196, 0.9);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
