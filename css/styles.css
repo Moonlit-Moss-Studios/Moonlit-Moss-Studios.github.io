@@ -10959,7 +10959,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11092,7 +11092,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(181, 195, 196, 0.9);
+    background-color: rgba(85, 87, 82, 0.9);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
